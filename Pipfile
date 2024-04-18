@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+beautifulsoup4 = "*"
+urllib3 = "<2"
+llama-index = "*"
+openai = "*"
+pinecone-client = "*"
+python-dotenv = "*"
+llama-index-vector-stores-pinecone = "*"
+black = "*"
+nltk = "*"
+llama-index-readers-file = "*"
+unstructured = "*"
+llama-index-llms-openai = "*"
+streamlit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
